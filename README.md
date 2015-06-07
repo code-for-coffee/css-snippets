@@ -40,3 +40,21 @@ Re-usable CSS Snippets
     <aside class="column-right"></aside>
 </div>
 ```
+
+#### Turn submit button into image
+```css
+/* add this class to your submit button to make it an image */
+.submit-button-img {
+  background: url(http://x3dgraphics.com/examples/X3dForAdvancedModeling/HelloWorldScenes/HelloWorld.tall.png);
+    border: 0;
+    display: block;
+    height: 100px; /* change to your own needs */
+    width: 100px; /* change to your own needs */
+}
+```
+
+**Usage**
+
+```html
+<submit value="what" class="submit-button-img"></submit>
+```
