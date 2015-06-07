@@ -17,3 +17,26 @@ Re-usable CSS Snippets
     background-size: cover;
 }
 ```
+
+#### Side-by-side columns
+```css
+.column-container {
+  position: relative;
+  margin: auto;
+}
+.column-right {
+  display: block;
+  float: right;
+}
+.column-left {
+  display: block;
+  float: left;
+}
+```
+**Usage**
+```html
+<div class="column-container">
+    <section class="column-left"></section>
+    <aside class="column-right"></aside>
+</div>
+```
