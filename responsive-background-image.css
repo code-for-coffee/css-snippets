@@ -1,0 +1,8 @@
+/* responsive backgrond image snippet */
+.responsive-background {
+    background: url(/path/to/your/image.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
