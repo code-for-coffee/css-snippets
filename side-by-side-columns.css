@@ -1,0 +1,13 @@
+/* side by side columns */
+.column-container {
+  position: relative;
+  margin: auto;
+}
+.column-right {
+  display: block;
+  float: right;
+}
+.column-left {
+  display: block;
+  float: left;
+}
